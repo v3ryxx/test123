@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "tenkoclient",
+  "version": "1.0.0",
+  "name": "Tenko Client",
+  "description": "Tenko Client — Fabric 1.21.4 utility mod",
+  "authors": [
+    "tenko"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "tenko.client.TenkoClient"
+    ]
+  },
+  "mixins": [
+    "tenkoclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "1.21.4",
+    "java": ">=21"
+  }
+}
